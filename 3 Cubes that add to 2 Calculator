@@ -1,0 +1,8 @@
+chosenNumber = int(input("Enter a number that you want to find a sum of three cubes that adds to 2: "))
+
+a = 1 + (6 * (chosenNumber ** 3))
+b = 1 - (6 * (chosenNumber ** 3))
+c = -(6 * (chosenNumber ** 2))
+
+listOfNumbers = [a, b, c]
+print("The sum of the cubes of", listOfNumbers, "is equal to 2!")
