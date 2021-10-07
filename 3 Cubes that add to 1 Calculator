@@ -1,0 +1,8 @@
+chosenNumber = int(input("Enter a number that you want to find a sum of three cubes that adds to 1: "))
+
+a = (9 * (chosenNumber ** 4))
+b = (3 * chosenNumber) - (9 * (chosenNumber ** 4))
+c = 1 - (9 * (chosenNumber ** 3))
+
+listOfNumbers = [a, b, c]
+print("The sum of the cubes of", listOfNumbers, "is equal to 1!")
